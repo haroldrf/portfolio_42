@@ -1,29 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Harold RUIZ-FRANCK | Portfolio</title>
-    <style>
-        body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { font-size: 2em; }
-        .project { margin-bottom: 20px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harold Ruiz-Franck — 42 Berlin Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Harold RUIZ-FRANCK</h1>
-    <p>Étudiant à 42, passionné par [ton domaine]. À la recherche d’un poste en [type de poste].</p>
-    <p>📧 contact@email.com | 🔗 <a href="linkedin.com/in/tonprofil">LinkedIn</a></p>
 
-    <h2>Projets</h2>
-    <div class="project">
-        <h3><a href="lien_github">Nom du Projet 1</a></h3>
-        <p>Description en 1 phrase + technologies utilisées.</p>
+<header>
+  <h1>Hi there, I'm <span>Harold</span>,<br>student at 42 Berlin.</h1>
+  <div class="header-meta">
+    Mechanical Engineer → Software<br>
+    Berlin, Germany<br>
+    <a href="https://www.linkedin.com/in/harold-ruiz-franck-b551a78/" target="_blank">LinkedIn ↗</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- INTRO -->
+  <section class="intro-box">
+    <p>This page presents a selection of the projects and experiences I've enjoyed the most during my studies at 42 —
+    what this school is about, why I attended, and my very personal perspective on the experience.</p>
+  </section>
+
+  <!-- BACKGROUND -->
+  <section>
+    <div class="section-label">Background</div>
+    <p>
+      Mechanical engineer with over 15 years of experience in design, simulation and optimization of rotor blades for wind turbines.
+      I am passionate about optimization as well as sleek designs, processes and solutions.
+    </p>
+    <p>
+      I have this tendency to be very perfectionist sometimes.* As a result, I tend to be kind of lazy for most things...
+    </p>
+    <p>
+      I made my first Python scripts in 2014. Over the years, for my work, I wrote many scripts and "programs" to help automate workflows and optimize products.
+      (Why would you evaluate design points "by hand", one at a time, if a program can evaluate thousands of them and algorithms can help you find the optimal ones?)
+      I was also in charge of heavy, computationally intensive simulations, waiting hours if not days for results.
+      I got more and more eager about speed — more and more interested in developing better tools that help you make the best products.
+    </p>
+    <p>
+      In 2024, as it became clear that my employer was going to file for bankruptcy, I decided to take a professional break
+      in order to complete the 42 Berlin core curriculum, a computer science and software engineering program.
+      I was aware that my coding skills and IT knowledge were limited.
+      I wanted to learn how to write better and faster software, and understand how computers and infrastructures actually work.
+    </p>
+    <div class="callout">
+      Before 42, I could write scripts and automate workflows — but I was essentially working blind: no real understanding of memory,
+      concurrency, or why some code is fast and some isn't. 42 changed that. Working in C from the ground up, I learned what's actually
+      happening under the hood: how memory is managed, how processes and threads interact, how algorithmic complexity translates into
+      real-world performance. I went from someone who uses simulation tools to someone who can build them.
     </div>
+  </section>
+
+  <!-- WHY 42 -->
+  <section>
+    <div class="section-label">Why 42?</div>
+    <p>
+      <a href="https://partner.42berlin.de/" target="_blank">42 Berlin ↗</a> &nbsp;·&nbsp;
+      <a href="https://www.42network.org/42-schools/" target="_blank">42 Network (50 schools worldwide) ↗</a>
+    </p>
+    <p>The core curriculum is said to be equivalent to a bachelor's degree in Computer Science. I believe this is true.</p>
+    <ul class="why-list">
+      <li><strong>Hands-on</strong> — you work and code on projects in order to gain experience, search, learn and understand theory and concepts.</li>
+      <li><strong>Low-level</strong> — lots of C and later C++, so you understand how computers actually work and what's behind the hood in higher-level languages and frameworks.</li>
+      <li><strong>Challenging</strong> — and you can decide how deep you go in the areas you like the most.</li>
+      <li><strong>Peer-to-peer</strong> — learning and gaining experience with and from other students. Closer to the way things work in the industry, I believe.</li>
+      <li><strong>Out of your comfort zone</strong> — by every new project. You have to produce results on something you had no idea about before reading the subject. Great training to gain confidence that you can tackle new challenges.</li>
+      <li><strong>Free</strong> — backed by sponsors from the industry, and <strong>open to all</strong>.</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="section-label">Favorite Projects — in chronological order</div>
+    <p style="margin-bottom:2rem; color:var(--muted); font-size:0.88rem;">
+      A selection from the 27 projects of the core curriculum.
+    </p>
+
     <div class="project">
-        <h3><a href="lien_github">Nom du Projet 2</a></h3>
-        <p>Description en 1 phrase + technologies utilisées.</p>
+      <div class="project-name"><a href="#" class="project-link"><strong>The Piscine</strong></a></div>
+      <div class="project-body">
+        <p>The intensive selection month — you have to swim!</p>
+        <p>I still had my engineering job back then. Time and stress management were taken to another level.
+        I enjoyed learning the basics of C in no time, meeting amazing new people (some made it into the school, some did not).
+        C coding during the week, exams on Fridays, "rushes" during the weekends.</p>
+        <p>Let's be honest: I would not do it again. Glad I got accepted the first time.</p>
+      </div>
     </div>
 
-    <h2>CV</h2>
-    <p><a href="lien_cv.pdf">Télécharger mon CV</a></p>
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>Get_Next_Line</strong></a></div>
+      <div class="project-body">
+        <p>A friend told me: "it's like Split on crack" (Split being a challenging exercise from the Piscine exams).
+        That was enough to trigger my appetite for a new challenge.</p>
+        <p>I made a fast and minimalist solution using a linked list to avoid unnecessary copying.
+        Well, I don't think he had ever experienced crack, and I haven't either... but in retrospect, it's probably just like RedBull ;)</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>ft_printf</strong></a></div>
+      <div class="project-body">
+        <p>Recoding printf from scratch, in C. The bonus was somewhat challenging, especially the parsing.
+        In the end, I was happy that my code base stayed small.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>Push_Swap</strong></a></div>
+      <div class="project-body">
+        <p>An introduction to sorting algorithms and time complexity. The program (in C) has to sort an array of integers
+        with the minimum number of moves, given specific game rules.</p>
+        <p>I first coded a direct (no pre-sorting) solution using merge-sort — O(n log n). Even though it was quite good on large arrays,
+        I averaged 699 moves for n=100. The target for full marks was under 700.</p>
+        <p>So I made another solution: based on a greedy algorithm backed by a backtracking evaluation of multiple candidates,
+        it reaches 477 moves on average for n=100. If Push_Swap were in the Olympics, I think that one could qualify ;)
+        It runs on O(n^1.5), so it's only interesting for small n, though.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>Minishell</strong></a></div>
+      <div class="project-body">
+        <p>Code a simple shell in C, with Bash as a reference. The first group project at 42 — known as a big milestone,
+        with quite a lot of complexity.</p>
+        <p>I worked with Hélène. We almost clashed during the first week... Nevertheless we kept going, professionally.
+        After 5 weeks, we had a solid solution covering all tests we could find or think of.
+        And Hélène and I became good friends :)</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>Philosophers</strong></a></div>
+      <div class="project-body">
+        <p>How to understand the fundamentals of parallel computing through a classical example, coded in C, using low-level functions only.</p>
+        <p>For the multi-threading part: I coded a pool manager on my old i5-3320M, so that the philosophers/workers perform well
+        even when the machine is pushed to its limits. For multi-processing: subject restrictions meant I couldn't apply the same strategy,
+        so I went with optimized time-phasing instead.</p>
+      </div>
+    </div>
+
+    <div class="project featured">
+      <div class="project-name"><a href="#" class="project-link"><strong>MiniRT — Ray-Tracer from scratch</strong></a> &nbsp;★ favorite</div>
+      <div class="project-body">
+        <p>A ray-tracer from scratch. Another group project — I teamed up with David, who came from a business school background before moving into IT.
+        I really enjoyed how well we complemented each other. We were both proud of the result.</p>
+        <p>This is the first 42 project where having a fast program really made a difference. We optimized aggressively for speed
+        while aiming for realistic results. It involved a fair amount of physics and mathematics, which was nice too.</p>
+        <p>Probably my favorite 42 project so far. 10 weeks from start to submission.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>FordJohnson</strong></a><br><small style="font-weight:400;font-size:0.85em;opacity:0.7">(cpp09)</small></div>
+      <div class="project-body">
+        <p>The last exercise in a series of C++ modules introducing object-oriented programming. Because it's the last one — and because it's 42 — it's quite challenging.</p>
+        <p>The Ford-Johnson algorithm is the best known sorting algorithm in terms of number of comparisons.
+        It reaches the mathematical lower bound for small n (up to n=22 and n=66).
+        Even though it dates from the 1950s, only tiny improvements for larger n have been found since.</p>
+        <p>Implementing it is far from trivial, I would say — much harder than merge-sort. 
+        But here's the catch: on a computer, it runs on n²log n,
+        at least for all implementations I could find. Minimal comparisons, but super slow. How frustrating is that?!</p>
+        <p>After my initial vector-based implementation, I built a hybrid version using red-black order-statistic trees.
+        This one runs on n(log n)². Still not competitive with n log n algorithms — but in cases where comparisons are expensive and n is large, it might win the game. <em>(Please let me know if this approach exists somewhere already.)</em></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-name"><a href="#" class="project-link"><strong>The Exams</strong></a></div>
+      <div class="project-body">
+        <p>You enter a dark cluster — 3 hours to solve a problem, no internet, no AI, not even your IDE.
+        Just you and the machine, and you have to code. Sometimes quite tough problems, picked randomly from a pool.</p>
+        <p>I enjoyed those challenges: the adrenaline, the tension in the room, the sound of neighbors' keyboards,
+        the terminal rejecting your solution until — finally — it accepts it.</p>
+        <p>And yes, it's 42: failure is accepted, it is part of the process. You can repeat the exam as many times as you need.
+        Next time, you'll prepare better. Still always frightening... and somehow very fun.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S NEXT -->
+  <section>
+    <div class="section-label">What's next — projects I want to build</div>
+    <ul class="why-list">
+      <li><strong>Micro-controllers</strong> — one personal project I would like to do: make the heat pumps and solar panels I helped install at friends' and family's homes finally "talk" to each other.</li>
+      <li><strong>GPU acceleration</strong> — an FE engine running on GPU, making those hours or days of simulation become minutes. That could be very nice!</li>
+      <li><strong>Modern C++ / maybe Rust</strong> — work on robust and professional software solutions for demanding engineering tasks.</li>
+      <li><strong>Assembly</strong> — get the last bits of performance, understand the machine's limits better.</li>
+      <li><strong>AI Agents</strong> — during my studies, I deliberately restricted my use of AI. I believe humans need much more time to learn — no shortcuts if you want to truly master a subject. And when it comes to precision and innovative solutions, human judgment remains essential. But for many programming tasks, working with smart agents is and will be a must.</li>
+    </ul>
+  </section>
+
+  <!-- NEXT STEP -->
+  <section class="next-step">
+    <div class="section-label">Next step</div>
+    <p>Find a position in the industry again (Available from May 2026)</p>
+    <p style="margin-top:0.8rem;">
+      Ideally working on low-level, performance-critical code and/or software solutions that assist engineers
+      in designing the best products of tomorrow.
+    </p>
+    <p style="margin-top:0.8rem;">
+      If you think I could be a fit for your team, or have a project to discuss, please <a href="https://www.linkedin.com/in/harold-ruiz-franck-b551a78/" target="_blank">contact me</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  * „Der Teufel steckt im Detail" zusammen mit „Wer kauft billig, kauft zweimal" — vielleicht meine zwei Lieblingsausdrücke auf Deutsch.
+</footer>
+
 </body>
 </html>
