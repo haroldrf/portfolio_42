@@ -283,7 +283,7 @@ footer {
 .intro-box {
   border: 1px solid var(--ink);
   padding: 1.2rem 1.6rem;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
   background: transparent;
 }
 .intro-box p {
